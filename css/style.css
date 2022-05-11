@@ -1,0 +1,58 @@
+/*---- about-us section ----*/
+
+#about-us-section {
+    margin: 7em 0;
+}
+
+.about-header h4 {
+    font-size: 2rem;
+    margin-bottom: 0.7em;
+}
+
+.about-header p {
+    margin-bottom: 2em;
+}
+
+.about-content ul li {
+    list-style: none;
+}
+
+.about-content ul li img {
+    margin-right: 0.2em;
+}
+
+#learnmore {
+    padding: 0.5em 2em;
+}
+
+/*---- experience section ----*/
+
+#experience-section {
+    background-color: #ecf7f4;
+}
+
+.exp-content h2 {
+    color: #124265
+}
+
+.exp-content p {
+    font-size: 1.2rem;
+}
+
+/*---- display section ----*/
+
+.display {
+    margin: 6em 0;
+}
+
+.display-content h6 {
+    color: #124265;
+}
+
+.display-content ul li {
+    list-style: none;
+}
+
+.display-content ul li img {
+    margin-right: 0.2em;
+}
