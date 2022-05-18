@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <title>One Page</title>
 </head>
 <body>
     <!-- hero section -->
     <div id="hero-section">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg bg-white">
             <div class="container">
-                <a class="navbar-brand text-primary" href="#">One Page</a>
+                <a class="deep-blue fs-2" href="#">OnePage</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +25,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-primary active"  aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link deep-blue" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link deep-blue" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link deep-blue" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link deep-blue" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link deep-blue" href="#">Pricing</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle deep-blue" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown
                             </a>
@@ -42,51 +57,54 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link deep-blue">Contact</a>
                         </li>
                     </ul>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-primary" type="submit">Get Started</button>
                 </div>
             </div>
         </nav>
         <div class="top-hero-section">
             <div class="container">
-                <div class="text-center py-5">
-                    <h1 class="text-primary display-1 fw-bold">One Page Bootstrap</h1>
-                    <h2 class="text-danger display-1 fw-bold">Website Template</h2>
-                    <p>We are team of talented designers</p>
-                    <button type="button" class="btn btn-primary">Get Started</button>
+                <div class="top text-center">
+                    <h1 class="deep-blue display-2 fw-bold mt-5">One Page Bootstrap<br>Website Template</h1>
+                    <p class="fs-3 text-secondary">We are a team of talented designers</p>
+                    <button type="button" class="btn btn-primary px-5 py-2">Get Started</button>
                 </div>
                 <section id="cards-section">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 mb-3">
                             <div class="card">
-                                <div class="card-body">
-                                    <h6 class="text-primary">Lorem Ipsum</h6>
+                                <div class="card-body pt-5 pb-4 px-4">
+                                    <i class="ri-stack-line fs-1 my-5"></i>
+                                    <h6 class="deep-blue mt-3">Lorem Ipsum</h6>
                                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 mb-3">
                             <div class="card">
-                                <div class="card-body">
-                                    <h6 class="text-primary">Lorem Ipsum</h6>
+                                <div class="card-body pt-5 pb-4">
+                                    <i class="ri-palette-line fs-1"></i>
+                                    <h6 class="deep-blue mt-3">Sed ut perspiciatis</h6>
                                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 mb-3">
                             <div class="card">
-                                <div class="card-body">
-                                    <h6 class="text-primary">Lorem Ipsum</h6>
+                                <div class="card-body pt-5 pb-4">
+                                    <i class="ri-command-line fs-1"></i>
+                                    <h6 class="deep-blue mt-3">Magni Dolores</h6>
                                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 mb-3">
                             <div class="card">
-                                <div class="card-body">
-                                    <h6 class="text-primary">Lorem Ipsum</h6>
+                                <div class="card-body pt-5 pb-4">
+                                    <i class="ri-fingerprint-line fs-1 py-5"></i>
+                                    <h6 class="deep-blue mt-3">Nemo Enim</h6>
                                     <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
                                 </div>
                             </div>
@@ -106,7 +124,7 @@
         <div class="container">
             <div class="about-us">
                 <div class="about-header text-center">
-                    <h4 class="text-primary fw-bold mt-5">ABOUT US</h4>
+                    <h4 class="deep-blue fw-bold mt-5">ABOUT US</h4>
                     <p class="text-secondary fs-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
                 </div>
                 <div class="about-content">
@@ -115,15 +133,15 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <ul>
                                 <li>
-                                    <img src="img/check-double-line.png" alt="double-check">
+                                    <i class="ri-check-double-line"></i>
                                     Ullamco laboris nisi ut aliquip ex ea commodo consequat
                                 </li>
                                 <li>
-                                    <img src="img/check-double-line.png" alt="double-check">
+                                    <i class="ri-check-double-line"></i>
                                     Duis aute irure dolor in reprehenderit in voluptate velit
                                 </li>
                                 <li>
-                                    <img src="img/check-double-line.png" alt="double-check">
+                                    <i class="ri-check-double-line"></i>
                                     Ullamco laboris nisi ut aliquip ex ea commodo consequat
                                 </li>
                             </ul>
@@ -145,19 +163,19 @@
                 <div class="row">
                     <div class="col-sm-3 col-12 text-center">
                         <h2 class="display-4 fw-bold">65</h2>
-                        <p class="text-primary">Happy Clients</p>
+                        <p class="deep-blue">Happy Clients</p>
                     </div>
                     <div class="col-sm-3 col-12 text-center">
                         <h2 class="display-4 fw-bold">85</h2>
-                        <p class="text-primary">Projects</p>
+                        <p class="deep-blue">Projects</p>
                     </div>
                     <div class="col-sm-3 col-12 text-center">
                         <h2 class="display-4 fw-bold">30</h2>
-                        <p class="text-primary">Years Of Experience</p>
+                        <p class="deep-blue">Years Of Experience</p>
                     </div>
                     <div class="col-sm-3 col-12 text-center">
                         <h2 class="display-4 fw-bold">20</h2>
-                        <p class="text-primary">Awards</p>
+                        <p class="deep-blue">Awards</p>
                     </div>
                 </div>
             </div>
@@ -176,22 +194,22 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                         <div class="display-content">
                             <h6 class="fs-3">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h6>
-                            <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <ul>
+                            <p class="fs-5 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <ul class="mb-3">
                                 <li class="fs-5">
-                                    <img src="img/check-double-line.png" alt="double-check">
+                                    <i class="ri-check-double-line"></i>
                                     Ullamco laboris nisi ut aliquip ex ea commodo consequat
                                 </li>
                                 <li class="fs-5">
-                                    <img src="img/check-double-line.png" alt="double-check">
+                                    <i class="ri-check-double-line"></i>
                                     Duis aute irure dolor in reprehenderit in voluptate velit
                                 </li>
-                                <li class="fs-6">
-                                    <img src="img/check-double-line.png" alt="double-check">
+                                <li class="fs-5">
+                                    <i class="ri-check-double-line"></i>
                                     Voluptate repellendus pariatur reprehenderit corporis sint.
                                 </li>
                                 <li class="fs-5">
-                                    <img src="img/check-double-line.png" alt="double-check">
+                                    <i class="ri-check-double-line"></i>
                                     Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
                                 </li>
                             </ul>
@@ -202,6 +220,162 @@
             </div>  
         </div>
     </div>
+    <!-- sponsor section -->
+    <div id="sponsor-section" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="image-box">
+                        <img src="img/sponsor1.png" alt="client" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="image-box">
+                        <img src="img/sponsor2.png" alt="client" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="image-box">
+                        <img src="img/sponsor3.png" alt="client" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="image-box">
+                        <img src="img/sponsor4.png" alt="client" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="image-box">
+                        <img src="img/sponsor5.png" alt="client" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="image-box">
+                        <img src="img/sponsor6.png" alt="client" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- testimonial section -->
+    <div id="testimonial-section">
+        <div class="container">
+            <div class="testimonial-header text-center py-5">
+                <h3 class="fs-1 fw-bold">TESTIMONIALS</h3>
+                <p class="fs-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="slider-section">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimony">
+                                <p class="text-secondary"><i class="ri-double-quotes-l test-icon"></i><em>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</em><i class="ri-double-quotes-r test-icon"></i></p>
+                            </div>
+                            <div class="testifier text-center">
+                                <img class="img-fluid rounded-circle mb-3" src="img/testimg1.jpg" alt="Testifier1">
+                                <h5 class="mb-1">Saul Goodman</h5>
+                                <h6 class="text-secondary fw-normal">Ceo & Founder</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimony">
+                                <p class="text-secondary"><i class="ri-double-quotes-l test-icon"></i><em>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</em><i class="ri-double-quotes-r test-icon"></i></p>
+                            </div>
+                            <div class="testifier text-center">
+                                <img class="img-fluid rounded-circle mb-3" src="img/testimg2.jpg" alt="Testifier1">
+                                <h5 class="mb-1">Sarah Wilsson</h5>
+                                <h6 class="text-secondary fw-normal">Designer</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimony">
+                                <p class="text-secondary"><i class="ri-double-quotes-l test-icon"></i><em>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</em><i class="ri-double-quotes-r test-icon"></i></p>
+                            </div>
+                            <div class="testifier text-center">
+                                <img class="img-fluid rounded-circle mb-3" src="img/testimg3.jpg" alt="Testifier1">
+                                <h5 class="mb-1">Jena Karlis</h5>
+                                <h6 class="text-secondary fw-normal">Store Owner</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimony">
+                                <p class="text-secondary"><i class="ri-double-quotes-l test-icon"></i><em>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</em><i class="ri-double-quotes-r test-icon"></i></p>
+                            </div>
+                            <div class="testifier text-center">
+                                <img class="img-fluid rounded-circle mb-3" src="img/testimg4.jpg" alt="Testifier1">
+                                <h5 class="mb-1">Matt Brandon</h5>
+                                <h6 class="text-secondary fw-normal">Freelancer</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimony">
+                                <p class="text-secondary"><i class="ri-double-quotes-l test-icon"></i><em>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</em><i class="ri-double-quotes-r test-icon"></i></p>
+                            </div>
+                            <div class="testifier text-center">
+                                <img class="img-fluid rounded-circle mb-3" src="img/testimg5.jpg" alt="Testifier1">
+                                <h5 class="mb-1">John Larson</h5>
+                                <h6 class="text-secondary fw-normal">Entrepreneur</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimony">
+                                <p class="text-secondary"><i class="ri-double-quotes-l test-icon"></i><em>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</em><i class="ri-double-quotes-r test-icon"></i></p>
+                            </div>
+                            <div class="testifier text-center">
+                                <img class="img-fluid rounded-circle mb-3" src="img/testimg1.jpg" alt="Testifier1">
+                                <h5 class="mb-1">Saul Goodman</h5>
+                                <h6 class="text-secondary fw-normal">Ceo & Founder</h6>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimony">
+                                <p class="text-secondary"><i class="ri-double-quotes-l test-icon"></i><em>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</em><i class="ri-double-quotes-r test-icon"></i></p>
+                            </div>
+                            <div class="testifier text-center">
+                                <img class="img-fluid rounded-circle mb-3" src="img/testimg2.jpg" alt="Testifier1">
+                                <h5 class="mb-1">Sarah Wilsson</h5>
+                                <h6 class="text-secondary fw-normal">Ceo & Founder</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/bootstrap.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        // slidesPerView: 3,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          426: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
 </body>
 </html>

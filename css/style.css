@@ -1,3 +1,68 @@
+/*---- default settings ----*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+i {
+    color: #2487ce;
+    margin-right: 0.2em;
+}
+
+.test-icon {
+    color: #a6c9df;
+}
+
+.deep-blue {
+    color: #124265;
+}
+
+.btn-deep-blue {
+    background-color: #124265; 
+} 
+
+/*---- hero section ----*/
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+    color: #2487ce;
+}
+
+.top-hero-section {
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)), url("../img/hero-bg.jpg") no-repeat;    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.top {
+    padding: 100px 0;
+}
+
+#cards-section .card {
+    border: none;
+}
+
+#cards-section .card-body {
+    box-shadow: 0 0 29px 0 rgb(18 66 101 / 8%);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+#cards-section .card-body:hover {
+    transform: scale(1.08);
+}
+
 /*---- about-us section ----*/
 
 #about-us-section {
@@ -15,10 +80,6 @@
 
 .about-content ul li {
     list-style: none;
-}
-
-.about-content ul li img {
-    margin-right: 0.2em;
 }
 
 #learnmore {
@@ -45,6 +106,10 @@
     margin: 6em 0;
 }
 
+.display-image img {
+    height: 100%;
+}
+
 .display-content h6 {
     color: #124265;
 }
@@ -53,6 +118,56 @@
     list-style: none;
 }
 
+.display-content ul li,
+.display-content p {
+    font-size: 16px !important;
+}
+
 .display-content ul li img {
     margin-right: 0.2em;
 }
+
+/*---- sponsor section ----*/
+
+#sponsor-section img {
+    max-width: 45%;
+    filter: grayscale(100);
+    transition: all 0.4s ease-in-out;
+}
+
+#sponsor-section img:hover {
+    filter: grayscale(0);
+    transform: scale(1.15);
+}
+
+/*---- testimonial section ----*/
+
+.testimonial-header h3 {
+    color: #124265;
+    margin-bottom: 0.9em;
+}
+
+.swiper-wrapper {
+    padding-bottom: 3em;
+}
+
+.testimony {
+    background: #f3f9fd;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.testimony i {
+    font-size: 22px;
+}
+
+.testifier img {
+    height: 100px;
+    width: 100px;
+}
+
+.testifier h6 {
+    font-size: 14px;
+}
+
