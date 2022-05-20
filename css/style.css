@@ -182,12 +182,31 @@
 .contents {
     padding: 60px 20px;
     border-radius: 10px;
-    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 5%);   
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 5%); 
 }
 
 .contents:hover {
     box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
 }
+
+.content-image {
+    text-align: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.content-image svg {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.content-image i {
+    font-size: 40px;
+    z-index: 20;
+} 
 
 .icon-blue:hover .content-image path {
     fill: #47aeff;
@@ -248,26 +267,6 @@
 .icon-light-blue:hover i {
     color: #fff;
 }
-
-.content-image {
-    text-align: center;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    margin: 0 auto; 
-    transition: all ease-in-out 0.3s;
-}
-
-.content-image svg {
-    position: absolute;
-    top: 0;
-    z-index: 2;
-}
-
-.content-image i {
-    font-size: 40px;
-    z-index: 20;
-} 
 
 /*---- cta section ----*/
 
